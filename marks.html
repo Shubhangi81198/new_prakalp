@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <link  rel="stylesheet" href="mark.css">
+    <link  rel="stylesheet" href="startingpage.css">
+    
+<body>
+    <h2 style="color:blueviolet;text-align: center;">MSE/ESE Assesment</h2>
+    <p style="color: blueviolet; font-weight: bold;">Problem Statement</p>
+    <input type="text" placeholder="Out of 10">
+    <p style="color: blueviolet; font-weight: bold;">Literature Review</p>
+    <input type="text" placeholder="Out of 10">
+    <p style="color: blueviolet; font-weight: bold;">Objective of Project activity</p>
+    <input type="text" placeholder="Out of 10">
+    <p style="color: blueviolet; font-weight: bold;">Group Formation and Indentification</p>
+    <input type="text" placeholder="Out of 10">
+    <p style="color: blueviolet; font-weight: bold;">Knowledege of Domain and Technology</p>
+    <input type="text" placeholder="Out of 10">
+    
+    <style>
+    input[type=text]
+        {
+width:20%;
+border:2px solid #aaaaaa;
+border-radius: 4px;
+border-color: black;
+margin: 8PX 0;
+outline: none;
+padding:8px;
+box-sizing: border-box;
+transition: 3s;
+
+        }
+        input[type=text]:focus
+        {
+            border-color: dodgerblue;
+            box-shadow:0 0 8px 0 dodgerblue;
+        }   
+        .center
+        {
+            margin:0;
+            position:absolute;
+            left:50%;
+            top:40%;
+            background-color:blueviolet;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding:20px;
+  width: 150px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.center:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.center:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+           
+        }    
+    </style>
+</body>
+<button class=center>Submit</button>
+
+</html>
+</html>
